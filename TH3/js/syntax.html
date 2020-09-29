@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web development</title>
+        <style>
+            .topnavbar{
+                background-color: #333;
+                height: 50px;
+                top:0;
+                width: 100%;
+                position: fixed;
+                left:0;
+            }
+            .topnavbar>a{
+                float: right;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            div{
+                top: 50px;
+                width: 300px;
+                position: fixed;
+                height: 100%;
+                left: 0;
+            }
+            div>ul{
+                list-style-type: none;
+                margin: 0;
+                padding:0;
+                width: 300px;
+                background-color: #f1f1f1;
+                height: 100%;
+                position:fixed;
+                overflow:auto;
+            }
+            div>ul>li>a{
+                display: block;
+                color:#000;
+                padding:8px 16px;
+                text-decoration: none;
+            }
+            div>ul>li>a[href="syntax.html"]{
+                display: block;
+                padding: 8px 16px;
+                color: white;
+                text-decoration: none;
+                background-color: #4caf50;
+            }
+            div[name="content"]{
+                margin-left: 300px;
+                padding: 20px;
+                margin-top: 50px;
+            }
+            .topnavbar>a[name="home"]{
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "topnavbar">
+            <a name="home" href = "../index.html">Home</a>
+            <a name="javacript" href = "index.html">Javacript</a>
+            <a name="css" href="../css/index.html">CSS</a>
+            <a name="html" href = "../html/index.html">HTML</a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="syntax.html">Syntax</a>
+                    <a href="variables.html">Variables</a>
+                    <a href="operators.html">Operators</a>
+                    <a href="data_types.html">Data types</a>
+                    <a href="functions.html">Functions</a>
+                    <a href="objects.html">Objects</a>
+                    <a href="events.html">Events</a>
+                    <a href="conditions.html">Conditions</a>
+                    <a href="loops.html">Loops</a>
+                    <a href="regexp.html">RegExp</a>
+                </li>
+            </ul>
+        </div>
+        <div name = "content">
+            <h2>
+                Javacript: Syntax
+            </h2>
+            <p>
+                123456
+            </p>
+        </div>
+    </body>
+</html>
